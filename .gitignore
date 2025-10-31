@@ -1,0 +1,25 @@
+﻿# ==== Frontend (React) ====
+battlegame-fe/node_modules/
+battlegame-fe/build/
+battlegame-fe/.env
+battlegame-fe/.env.local
+battlegame-fe/.env.*.local
+battlegame-fe/npm-debug.log*
+battlegame-fe/yarn-debug.log*
+battlegame-fe/yarn-error.log*
+
+# ==== Backend (Azure Functions .NET 8 - isolated) ====
+bin/
+obj/
+.azurefunctions/
+**/functions.metadata
+**/extensions.json
+**/worker.config.json
+
+# Local secrets (do NOT commit real secrets)
+local.settings.json
+
+# ==== Editors / OS ====
+.vscode/
+.DS_Store
+Thumbs.db

@@ -1,0 +1,12 @@
+﻿{
+  "IsEncrypted": false,
+  "Values": {
+    "AzureWebJobsStorage": "UseDevelopmentStorage=true",
+    "FUNCTIONS_WORKER_RUNTIME": "dotnet-isolated",
+    "MySqlConnection": "Server=localhost;Database=battlegame;User Id=root;Password=;"
+  },
+  "Host": {
+    "CORS": "http://localhost:3000",
+    "CORSCredentials": false
+  }
+}
